@@ -3,7 +3,7 @@ body {
 }
 
 body::before {
-    background-image: url('images/fon.jpg');
+    background-image: url('../images/fon.jpg');
     content: '';
     z-index: -1;
     width: 100%;
