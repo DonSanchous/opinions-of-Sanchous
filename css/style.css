@@ -1,0 +1,52 @@
+body {
+    background-color: transparent;
+}
+
+body::before {
+    background-image: url('/images/fon.jpg');
+    content: '';
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-repeat: no-repeat;
+    background-position: 40% 5%;
+    background-size: auto;
+}
+
+.hell {
+    position: fixed;
+    margin-left: 12px;
+    font-size: 50px;
+    color: white;
+}
+
+.hell > * {
+    height: auto;
+    width: 100%;
+}
+.video {
+    text-align: center;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+  
+/* Track */
+::-webkit-scrollbar-track {
+    background: var(--bg-color-card);
+    background-color: black;
+}
+   
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #5fc7ff;
+}
+  
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #d9d900; 
+}
